@@ -18,7 +18,8 @@ body {
 input {
   font-size: 1rem;
   padding: 0.5rem;
-  width: 300px;
+  width: 500px;
+  height:500px;
   margin-bottom: 1rem;
 }
 
@@ -49,4 +50,14 @@ button {
 
 .letter-buttons button:hover {
   background-color: #0056b3;
+}
+
+
+#textInput {
+  width: 100%;            /* Make it full width of container */
+  box-sizing: border-box; /* Include padding/border in width */
+  resize: vertical;       /* Allow vertical resizing only */
+  overflow-wrap: break-word; /* Wrap long words */
+  white-space: pre-wrap;  /* Preserve whitespace and wrap */
+  max-height: 150px;      /* Optional: limit height */
 }
